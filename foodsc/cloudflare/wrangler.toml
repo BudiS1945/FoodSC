@@ -1,0 +1,8 @@
+name = "foodsc-api"
+main = "worker.mjs"
+compatibility_date = "2026-11-09"
+
+[vars]
+GROQ_MODEL = "qwen/qwen3.8-27b"
+# Ganti dengan URL Netlify yang sebenarnya, tanpa slash di akhir.
+ALLOWED_ORIGIN = "https://YOUR-SITE.netlify.app"
